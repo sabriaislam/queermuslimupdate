@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gloock&family=Labrada:wght@300&family=Yeseva+One&display=swap');
+
+body {
+	background-color: #70161E;
+}
+
+header {
+	font-family: 'Gloock', serif;
+	font-size: 30px;
+	color: #D7C9AA;
+	display:flex;
+	justify-content: center;
+	position: relative;
+	margin: 5%;
+}
+
+h1 {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 50px;
+	color: #F0F3F5;
+}
+
+h2 {
+	font-family: 'Labrada', serif;
+	font-size: 40px;
+	color: #F0F3F5;
+}
+
+p{
+	font-family: 'Labrada', serif;
+	font-size: 20px;
+	color: #D7C9AA;
+}
+
+.hero-image-container{
+	border: 1px solid #000000;
+	margin: 50px;
+	position:relative;
+}
+
+#hero-image{
+	width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border: 10px solid #000000;
+}
+
+.line1 {
+	position: absolute;
+	z-index: 1;
+	left: -9%;
+	top: 0%;
+	margin: 10%;
+	padding: 30px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 70px ;
+	line-height: 0.1;
+	background-color: #D7C9AA;
+	color: black;
+}
+
+.bottomtitle {
+	position: absolute;
+	z-index: 1;
+	bottom: -50%;
+	right: -4%;
+	margin: 5%;
+	padding: 5px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 100px;
+	background-color: #D7C9AA;
+	color: black;
+	
+}
+
+.directory{
+	font-family: 'Labrada', serif;
+	display:flex;
+	justify-content: space-evenly;
+	padding: 50px;
+	background-color: #D7C9AA;
+}
+
+.intro{
+	font-family: 'Labrada', serif;
+	font-size: 35px;
+	margin: 10%;
+	padding: 10px;
+	color: #D7C9AA ;
+	display:flex;
+	justify-content: center;
+	position: relative;
+}
+
+.navbar {
+	background-color: #011627;
+	padding: 20px;
+}
+
+a:link, a:visited {
+  background-color: #011627;
+  color: #F0F3F5;
+ 	font-size: 35px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+a:hover, a:active {
+  background-color: #9C3848;
+  color: #011627;
+}
+
+.article-container {
+  display: flex;
+
+}
+
+.article {
+  flex: 1;
+  background-color: #D7C9AA;
+  margin: 2%;
+  padding: 20px;
+  text-align: left;
+}
+
+.article-color {
+	color: #011627;
+}
+
+.read-more{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.community{
+	margin: 2%;
+}
+
+.literature{
+	margin: 2%;
+}
+
+.aboutme{
+	margin: 2%;
+}
+
+.book-container{
+ 	display: flex;
+  flex-direction: row;
+}
+
+.book-summary, .book{
+	flex-basis: 75%;
+}
+
+.book{
+	max-height: 20%;
+	max-width: 25%;
+	padding: 2%;
+	align-content: right;
+}
+
+.about-me-image{
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
